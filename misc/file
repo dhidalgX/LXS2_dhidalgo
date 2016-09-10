@@ -1,0 +1,10 @@
+[   11.440914] floppy0: no floppy controllers found
+[   11.440914] work still pending
+[   11.452060] init: failsafe main process (466) killed by TERM signal
+[   12.004469] audit: type=1400 audit(1473520480.743:8): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/sbin/dhclient" pid=763 comm="apparmor_parser"
+[   12.004469] audit: type=1400 audit(1473520480.743:9): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=763 comm="apparmor_parser"
+[   12.004469] audit: type=1400 audit(1473520480.743:10): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=763 comm="apparmor_parser"
+[   12.009023] audit: type=1400 audit(1473520480.747:11): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=763 comm="apparmor_parser"
+[   13.540204] init: plymouth-upstart-bridge main process ended, respawning
+[ 6203.041571] atkbd_interrupt: 9 callbacks suppressed
+[ 6203.041571] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.
