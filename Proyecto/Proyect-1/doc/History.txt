@@ -1,0 +1,21 @@
+    1  nmcli d
+    2  ping www.google.com
+    3  yum update
+    4  sudo yum install git 
+    5  git --version
+    6  sudo dhidalgo
+    7  sudo su dhidalgo
+    8  ls -ltr
+    9  df -kh .
+   10  ls -ltr
+   11  df -kh
+   12  fdisk -l > fdisk_Original.txt
+   13  fdisk -l
+   14  ls -ltrh 
+   15  chmod 777 *.txt
+   16  ls -ltr
+   17  more *.txt
+   18  shutdown -h now
+   19  mkdir -p /home/dhidalgo/Project
+   20  mv *.txt /home/dhidalgo/Project
+   21  history > /home/dhidalgo/Project/History.txt
