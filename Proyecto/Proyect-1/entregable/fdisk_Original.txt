@@ -1,0 +1,46 @@
+
+Disk /dev/sda: 3221 MB, 3221225472 bytes, 6291456 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk label type: dos
+Disk identifier: 0x0008a1ce
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sda1   *        2048     1026047      512000   83  Linux
+/dev/sda2         1026048     6291455     2632704   8e  Linux LVM
+
+Disk /dev/mapper/centos-root: 2327 MB, 2327838720 bytes, 4546560 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mapper/centos-swap: 322 MB, 322961408 bytes, 630784 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+  --- Physical volume ---
+  PV Name               /dev/sda2
+  VG Name               centos
+  PV Size               2.51 GiB / not usable 3.00 MiB
+  Allocatable           yes 
+  PE Size               4.00 MiB
+  Total PE              642
+  Free PE               10
+  Allocated PE          632
+  PV UUID               FAwcVZ-XvGB-uxMB-oaud-yauW-J7Qk-fsZiTD
+   
+  "/dev/sdb" is a new physical volume of "3.00 GiB"
+  --- NEW Physical volume ---
+  PV Name               /dev/sdb
+  VG Name               
+  PV Size               3.00 GiB
+  Allocatable           NO
+  PE Size               0   
+  Total PE              0
+  Free PE               0
+  Allocated PE          0
+  PV UUID               RAgxFd-5fnO-uIva-S3QU-DzLO-K0TO-yLrSZS
+   

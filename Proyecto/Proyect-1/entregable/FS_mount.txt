@@ -1,0 +1,10 @@
+Filesystem                 Size  Used Avail Use% Mounted on
+/dev/mapper/centos-root    2.2G 1006M  1.2G  46% /
+devtmpfs                   487M     0  487M   0% /dev
+tmpfs                      497M     0  497M   0% /dev/shm
+tmpfs                      497M  6.6M  490M   2% /run
+tmpfs                      497M     0  497M   0% /sys/fs/cgroup
+/dev/sda1                  497M  124M  374M  25% /boot
+tmpfs                      100M     0  100M   0% /run/user/0
+/dev/mapper/centos-share   976M  1.3M  924M   1% /share
+/dev/mapper/centos-backup  976M  1.3M  924M   1% /backup
