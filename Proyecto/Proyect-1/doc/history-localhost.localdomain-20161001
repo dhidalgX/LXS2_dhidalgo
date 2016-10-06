@@ -1,0 +1,149 @@
+    1  nmcli d
+    2  ping www.google.com
+    3  yum update
+    4  sudo yum install git 
+    5  git --version
+    6  sudo dhidalgo
+    7  sudo su dhidalgo
+    8  ls -ltr
+    9  df -kh .
+   10  ls -ltr
+   11  df -kh
+   12  fdisk -l > fdisk_Original.txt
+   13  fdisk -l
+   14  ls -ltrh 
+   15  chmod 777 *.txt
+   16  ls -ltr
+   17  more *.txt
+   18  shutdown -h now
+   19  ls -ltr
+   20  fdisk -l
+   21  fdisk -l > fdisk_DiscoAdicional.txt
+   22  ls -ltrh 
+   23  chmod 777 *.txt 
+   24  ls -ltr
+   25  pvdisplay 
+   26  pvdisplay > pv-original.txt
+   27  pvc
+   28  pvdisplay 
+   29  pvdisplay >> fdisk_Original.txt 
+   30  ls -ltrh 
+   31  fdisk /dev/sdb
+   32  partprobe
+   33  ls -ltr
+   34  more fdisk_Original.txt 
+   35  fdisk -l
+   36  fdisk -l > fdisk_Extendido.txt
+   37  ls -ltrh 
+   38  pvdisplay > pv-original.txt
+   39  pvdisplay | more
+   40  pvcreate /dev/sdb1 /dev/sdb2
+   41  pvdisplay > pv-extendido.txt
+   42  pvdisplay 
+   43  pvdisplay |more
+   44  vgdisplay
+   45  vgdisplay > vg_original.txt
+   46  vgextend centos /dev/sdb1
+   47  vgextend centos /dev/sdb2
+   48  vgdisplay > vg_extendido.txt
+   49  vgdisplay | more 
+   50  more vg_original.txt 
+   51  lvdisplay
+   52  lvdisplay | more 
+   53  lvdisplay > lv_original.txt
+   54  lvcreate --name share --size 1G centos
+   55  lvcreate --name backup --size 1G centos
+   56  lvdisplay | more 
+   57  lvdisplay > lv_extendido.txt
+   58  ls -ltrh
+   59  chmod 777 *.txt
+   60  ls -ltr
+   61  pwd
+   62  vgdisplay
+   63  lvdisplay | more 
+   64  lvextend -L2.8G /dev/centos/root 
+   65  lvdisplay > lv_rootExtendido.txt
+   66  lvdisplay | more 
+   67  lvextend -L600M /dev/centos/swap 
+   68  lvdisplay > lv_swapExtendido.txt
+   69  lvdisplay | more 
+   70  ls -ltrh 
+   71  chmod 777 *.txt
+   72  mkdir /backup
+   73  mkdir /share
+   74  mkdir /swap
+   75  mount /dev/centos/share /share
+   76  mkfs/ext3 /dev/centos/share 
+   77  umount /dev/centos/share 
+   78  mkfs.ext3 /dev/centos/share 
+   79  mount /dev/centos/share /share
+   80  df -kh 
+   81  mkfs.ext3 /dev/centos/backup 
+   82  mount /dev/centos/backup /backup
+   83  mount /dev/centos/swap /swap
+   84  df -kh 
+   85  df -kh  > FS_mount.txt
+   86  ls -ltrh
+   87  chmod 777 *.txt 
+   88  ls -ltrh
+   89  ls
+   90  df -kh 
+   91  sudo su dhidalgo
+   92  mkdir -p /home/dhidalgo/Project
+   93  mv *.txt /home/dhidalgo/Project
+   94  history > /home/dhidalgo/Project/History.txt
+   95  sudo su dhidalgo
+   96  cd /home/dhidalgo
+   97  ls -ltr
+   98  chmod -R *
+   99  chmood 777 *
+  100  chmod -R 777 *
+  101  ls -ltr
+  102  cd Pro*
+  103  ls -ltr
+  104  sudo su dhidalgo
+  105  history
+  106  history -1000
+  107  history -100
+  108  sudo su dhidalgo
+  109  pvdisplay
+  110  history
+  111  esport HISTTIMEFORMAT='%F %T : '
+  112  export HISTTIMEFORMAT='%F %T : '
+  113  history
+  114  shutdown -h now
+  115  ls -ltr
+  116  su - dhidalgx
+  117  sudo su dhidalgx
+  118  sudo su dhidalgX
+  119  ls -ltra
+  120  cat .bash_history 
+  121  su - dhidalgo
+  122  history
+  123  df -kh 
+  124* vim /etc/
+  125  history > /home/dhidalgo/Project/history-$HOSTNAME-`date +%Y%m%d`
+  126  cd /home/dhidalgo/
+  127  la -ltr
+  128  ls -ltr
+  129  history > /home/dhidalgo/
+  130  cd -
+  131  ls -ltr
+  132  cd GIT_REP/]
+  133  cd GIT_REP/
+  134  ls -ltr
+  135  cd *
+  136  ls -ltr
+  137  cd Proyecto
+  138  ls -ltr
+  139  cd *
+  140  ls -ltr
+  141  cd doc
+  142  ls -ltr
+  143  pwd
+  144  cd
+  145  ls
+  146  ls -a
+  147  cd -
+  148  cat History.txt 
+  149  history > /home/dhidalgo/GIT_REP/LXS2_dhidalgo/Proyecto/Proyect-1/doc/history-$HOSTNAME-`date +%Y%m%d`

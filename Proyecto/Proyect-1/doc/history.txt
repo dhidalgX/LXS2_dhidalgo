@@ -1,0 +1,159 @@
+nmcli d
+ping www.google.com
+yum update
+sudo yum install git 
+git --version
+sudo dhidalgo
+sudo su dhidalgo
+ls -ltr
+df -kh .
+ls -ltr
+df -kh
+fdisk -l > fdisk_Original.txt
+fdisk -l
+ls -ltrh 
+chmod 777 *.txt
+ls -ltr
+more *.txt
+shutdown -h now
+ls -ltr
+fdisk -l
+fdisk -l > fdisk_DiscoAdicional.txt
+ls -ltrh 
+chmod 777 *.txt 
+ls -ltr
+pvdisplay 
+pvdisplay > pv-original.txt
+pvc
+pvdisplay 
+pvdisplay >> fdisk_Original.txt 
+ls -ltrh 
+fdisk /dev/sdb
+partprobe
+ls -ltr
+more fdisk_Original.txt 
+fdisk -l
+fdisk -l > fdisk_Extendido.txt
+ls -ltrh 
+pvdisplay > pv-original.txt
+pvdisplay | more
+pvcreate /dev/sdb1 /dev/sdb2
+pvdisplay > pv-extendido.txt
+pvdisplay 
+pvdisplay |more
+vgdisplay
+vgdisplay > vg_original.txt
+vgextend centos /dev/sdb1
+vgextend centos /dev/sdb2
+vgdisplay > vg_extendido.txt
+vgdisplay | more 
+more vg_original.txt 
+lvdisplay
+lvdisplay | more 
+lvdisplay > lv_original.txt
+lvcreate --name share --size 1G centos
+lvcreate --name backup --size 1G centos
+lvdisplay | more 
+lvdisplay > lv_extendido.txt
+ls -ltrh
+chmod 777 *.txt
+ls -ltr
+pwd
+vgdisplay
+lvdisplay | more 
+lvextend -L2.8G /dev/centos/root 
+lvdisplay > lv_rootExtendido.txt
+lvdisplay | more 
+lvextend -L600M /dev/centos/swap 
+lvdisplay > lv_swapExtendido.txt
+lvdisplay | more 
+ls -ltrh 
+chmod 777 *.txt
+mkdir /backup
+mkdir /share
+mkdir /swap
+mount /dev/centos/share /share
+mkfs/ext3 /dev/centos/share 
+umount /dev/centos/share 
+mkfs.ext3 /dev/centos/share 
+mount /dev/centos/share /share
+df -kh 
+mkfs.ext3 /dev/centos/backup 
+mount /dev/centos/backup /backup
+mount /dev/centos/swap /swap
+df -kh 
+df -kh  > FS_mount.txt
+ls -ltrh
+chmod 777 *.txt 
+ls -ltrh
+ls
+df -kh 
+sudo su dhidalgo
+mkdir -p /home/dhidalgo/Project
+mv *.txt /home/dhidalgo/Project
+history > /home/dhidalgo/Project/History.txt
+sudo su dhidalgo
+cd /home/dhidalgo
+ls -ltr
+chmod -R *
+chmood 777 *
+chmod -R 777 *
+ls -ltr
+cd Pro*
+ls -ltr
+sudo su dhidalgo
+history
+history -1000
+history -100
+sudo su dhidalgo
+#1474679571
+pvdisplay
+#1474679577
+history
+#1474679748
+esport HISTTIMEFORMAT='%F %T : '
+#1474679753
+export HISTTIMEFORMAT='%F %T : '
+#1474679756
+history
+#1474680406
+shutdown -h now
+ls -ltr
+su - dhidalgx
+sudo su dhidalgx
+sudo su dhidalgX
+ls -ltra
+cat .bash_history 
+su - dhidalgo
+history
+df -kh 
+vim /etc/
+history > /home/dhidalgo/Project/history-$HOSTNAME-`date +%Y%m%d`
+cd /home/dhidalgo/
+la -ltr
+ls -ltr
+history > /home/dhidalgo/
+cd -
+ls -ltr
+cd GIT_REP/]
+cd GIT_REP/
+ls -ltr
+cd *
+ls -ltr
+cd Proyecto
+ls -ltr
+cd *
+ls -ltr
+cd doc
+ls -ltr
+pwd
+cd
+ls
+ls -a
+cd -
+cat History.txt 
+history > /home/dhidalgo/GIT_REP/LXS2_dhidalgo/Proyecto/Proyect-1/doc/history-$HOSTNAME-`date +%Y%m%d`
+cd -
+ls -ltr
+more history-localhost.localdomain-20161001 
+shutdown -h now 
