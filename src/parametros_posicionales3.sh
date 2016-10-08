@@ -5,7 +5,7 @@ ERRORLOG="$0.err"
 then
       	echo "El archivo1.txt fue correctamente respaldo..."
 	echo "Eliminar archivo original"
-	if rm archivo1.txt
+	if rm -f archivo1.txt
 	then
 		echo "El archivo original fue elimindado correctamente.."
 	else
