@@ -1,0 +1,99 @@
+*****Trabajo de Investigación*****
+
+Introduccion: Logical Volume Manager
+
+LVM permite tener un sistema de archivos lógico estructurado entre múltiples volúmenes físicos y diferentes particiones que
+son usadas como una partición normal. Cuando se usa LVM es muy fácil realizar tareas administrativas como reducir o
+expandir un sistema de archivos cuando sea necesario; en general tareas que son difíciles de realiza particiones físicas
+normales.
+
+
+<<Descripción del trabajo>>
+
+1- Instalar una máquina virtual con la última versión de Centos 7 utilizando virtualbox (si desea utilizar otro sistema de virtualización me debe contactar primero). Esta máquina debe ser instalada con los pasos por defecto para instalar el sistema con LVM. Esto crea tres particiones:
+
+Partición                                         Sistema
+/boot                                     ---->   Linux
+/dev/mapper/<nombre-de-maquina>-root      ---->   Linux LVM
+/dev/mapper/<nombre-de-maquina>-swap      ---->   Linux LVM
+
+
+2- Se debe investigar como agregar un disco extra al sistema de virtualización utilizado. Esta unidad puede ser del tamaño que desee. Se recomienda usar 1 GB 
+
+3- Guardar la salida de los comandos "display" de LVM para obtener la información de los volúmenes físicos, lógicos y grupos presentes antes de realizar cualquier cambio.
+
+4- Particionar el disco recién agregado al sistema en un formato apropiado para LVM. 
+
+5- Extender el grupo de volúmenes creado por centos a la hora de la instalación utilizando el disco recién agregado de 1 GB. El nombre del grupo se puede obtener a la hora de ejecutar los comandos de "display".
+
+6- Luego de extender el grupo de volúmenes se debe extender el volumen lógico de swap en unos 200MB.
+
+7- Luego de extender el volumen lógico se debe utilizar el comando "resize2fs" para que la tabla de archivos pueda detectar el nuevo espacio agregado.
+
+8- Extienda la partición de root en 512 MB. 
+
+<<Desarrollo>>
+
+1 - Procedimiento de instalación de CentOS 7 con LVM en Virtual Box.
+
+	a- Bajar el mirror CentOS 7 64 bits: de http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-1511.iso
+	b- Instalación del sistema operativo  en el VirtualBox.
+		1. Pulse la tecla enter para iniciar la instalacion de CentOS de manera inmediata.
+		2. Se realizará automáticamente la verificación del medio de instalación. 
+		3. Se mostrará la pantalla de bienvenida de CentOS 7 en inglés/Espanol.
+		4. A continuación aparecerá la pantalla de resumen de la instalación. Puede seguir el orden que guste para cada una de las secciones.
+		5. Aparecerá la pantalla de DESTINO DE LA INSTALACIÓN. Seleccione o confirme la unidad de almacenamiento donde se realizará la instalación. 
+		6. Si hace clic en botón Listo se crearán automáticamente las particiones /boot, /, /home y la correspondiente a la memoria de intercambio, 
+		  esquema donde a la partición /home se le asignará la mayor parte del espacio de almacenamiento disponible.
+		7. Vaya aproximadamente a la mitad de la pantalla, específicamente a la sección Otras opciones de Almacenamiento y seleccione Voy a configurar las particiones
+		8. Aparecerá la pantalla de PARTICIONADO MANUAL. Elija el esquema de particionado con LVM y haga clic en el botón "Listo".
+		9. Regresará a la pantalla denominada CONFIGURACIÓN. Espere a que concluya el proceso de instalación y permita que reinicie automáticamente el sistema
+		
+2. Agregar disco adicional de 1GB
+	
+	a- Es necesario tener nuestro SO huésped apagado.
+	b- Dentro de la pestaña de storage podemos ver los actuales controladores para nuestros discos duros, 
+	por defecto solo tenemos uno. Damos click en el botón + de color verde.
+	c- En la siguiente pantalla se selecciona la ruta, nombre y tamaño de nuestro nuevo HD Virtual.
+	d- reiniciar el SO.
+
+3. Guardar la salida de los comandos "display" de LVM para obtener la información de los volúmenes físicos, lógicos y grupos presentes antes de realizar cualquier 
+	a- pvdisplay > pv-original.txt - #Captura de los volumenes Fisicos disponibles.
+	b- vgdisplay > vg_original.txt - #Captura de los grupos disponibles.
+	c- lvdisplay > lv_original.txt - #Captura de los volumenes logicos disponibles.
+
+4. Particionar el disco recién agregado al sistema en un formato apropiado para LVM. 
+	a- Crear particiones con fdisk
+	b- Para crear particiones usando la herramienta fdisk, primero debemos comprobar los discos del sistema disponibles 
+	y las particiones que ya haya creadas, para ello utilizamos el parámetro -l.
+		- fdisk -l > fdisk_Original.txt  - #Captura de los discos y particiones disponibles.
+		- fdisk -l > fdisk_DiscoAdicional.txt - #Captura del disco adicional de 1GB.
+	c- Crear particion:
+		- fdisk /dev/sdb
+		- pulsamos "m" para ir al menu.
+		- pulsamos "n" para crear nueva particion.
+		- pulsamos "p" para crear una particion primaria.
+		- pulasmoa "t" para cambiar el ID de la particion.
+		- escojemos la opcion "e"
+		- y pulsamos "w" para excribir los cambios y salimos de fdisk.
+		- escribimos "partprobe" para indicar al kernel que vuelva a leer la tabla de particiones.
+		- Formateamos la particion como ext3 : 
+			$ mkfs.ext3 /dev/sdb
+
+5. Extender el grupo de volúmenes creado por centos.
+	a- pvcreate /dev/sdb1 /dev/sdb2 - # se crean los volumen fisicos /dev/sdb1 & /dev/sdb2
+	b- pvdisplay > pv-extendido.txt
+	c- vgextend centos /dev/sdb1 - #se agrega el volumen fisico /dev/sdb1 al grupo "Centos"
+	d- vgextend centos /dev/sdb2 - #se agrega el volumen fisico /dev/sdb2 al grupo "Centos"
+	e- lvcreate --name share --size 1G centos - # se crea el volumen logico "share"
+	f- lvcreate --name backup --size 1G centos - # se crea el volumen logico "backup"
+
+6. Luego de extender el grupo de volúmenes se debe extender el volumen lógico de swap en unos 200MB.
+	a- lvdisplay > lv_extendido.txt
+	b- lvextend -L600M /dev/centos/swap - #extender el volumen lógico de swap en unos 200MB.
+	c- lvdisplay > lv_swapExtendido.txt
+
+
+8- Extienda la partición de root en 512 MB. 
+	a- lvextend -L2.8G /dev/centos/root - #extender la particion root en 512MB.
+	b- lvdisplay > lv_rootExtendido.txt
