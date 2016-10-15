@@ -5,19 +5,24 @@
 shopt -s nocasematch
 
 DISTRO=$1
+#Las funciones se deben definir antes de ser llamadas
+mensaje ()
+{
 
+		echo "Distribucion $DISTRO soportada"
+}
 
 case "$DISTRO" in 
 	Ubuntu)
-		echo "Distribucion $DISTRO soportada"
+		mensaje
 	;;
 	Centos)
 		
-		echo "Distribucion $DISTRO soportada"
+		mensaje
 	;;
 	Fedora)
 		
-		echo "Distribucion $DISTRO soportada"
+		mensaje
 	;;
 	*)
 		
