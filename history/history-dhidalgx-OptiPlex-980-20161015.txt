@@ -391,7 +391,7 @@
   391  git status
   392  git add ../.gitignore 
   393  git commit -m "incuir .gitignore" 
-  394* 
+  394  git status
   395  git push origin master
   396  history
   397  screen
@@ -409,25 +409,180 @@
   409  ls -ltr
   410  sudo usermod -a -G libvirtd sysadmin
   411  exit
-  412  sl -tlr
-  413  ls -lrt
-  414  cd LXS2_dhidalgo/
-  415  ls -ltr
-  416  git status
-  417  git pull origin master
-  418  git status
-  419  sudo usermod -a -G libvirtd sysadmin
-  420  sudo apt-get install libvirt-bin qemu-system qemu-kvm virt-manager
-  421  ls -ltra
-  422  pwd
-  423  cd ../
-  424  ls -ltra
-  425  cd -
-  426  ls -ltr
-  427  ls -ltR
-  428  ls -ltr
-  429  cd scr
-  430  cd src
-  431  ls -ltr
-  432  vim SpecVar.sh 
-  433  history > history-$HOSTNAME-`date +%Y%m%d`.txt
+  412  cd
+  413  ls -ltr
+  414  idsysadmin
+  415  id sysadmin
+  416  sl -tlr
+  417  ls -lrt
+  418  cd LXS2_dhidalgo/
+  419  ls -ltr
+  420  git status
+  421  git pull origin master
+  422  git status
+  423  sudo usermod -a -G libvirtd sysadmin
+  424  sudo apt-get install libvirt-bin qemu-system qemu-kvm virt-manager
+  425  ls -ltra
+  426  pwd
+  427  cd ../
+  428  ls -ltra
+  429  cd -
+  430  ls -ltr
+  431  ls -ltR
+  432  ls -ltr
+  433  cd scr
+  434  cd src
+  435  ls -ltr
+  436  vim SpecVar.sh 
+  437  history > history-$HOSTNAME-`date +%Y%m%d`.txt
+  438  ls -ltr
+  439  cd ../
+  440  ls -ltr
+  441  cd history/
+  442  ls -ltr
+  443  ls -ltr
+  444  git add parametros_posicionales.sh 
+  445  git add history-dhidalgx-OptiPlex-980-20161015.txt 
+  446  cd -
+  447  ls -ltr
+  448  cd src
+  449  ls -ltr
+  450  git status
+  451  cd ../.../
+  452  cd ../../
+  453  ls -ltr
+  454  cd LXS2_emmanuel/
+  455  ls -ltr
+  456  ls -ltra
+  457  git pull  https://github.com/emvarg/LXS2_emmanuel.git
+  458  ls -ltr
+  459  cd misc/
+  460  ls -ltr
+  461  cat *
+  462  pwd
+  463  cd ../src/
+  464  pwd
+  465  cd
+  466  ls
+  467  cd LXS2_dhidalgo/
+  468  cd src
+  469  ls -ltr
+  470  cp /home/sysadmin/LXS2_emmanuel/src/SpecVar.sh SpecVar.sh_Prof
+  471  ls -ltr
+  472  cd /home/sysadmin/LXS2_emmanuel/src
+  473  ls -ltr
+  474  cd -
+  475  ls -ltr
+  476  vim case1.sh
+  477  ls -ltr
+  478  bash case1.sh 
+  479  bash case1.sh ubuntu
+  480  mv case1.sh nocasematch_case1.sh
+  481  ls -ltr
+  482  git add nocasematch_case1.sh 
+  483  git commit -m "Ejemplo no case match"
+  484* 
+  485  git add ../history/history-ubuntu-20161008 
+  486  git statua
+  487  git status
+  488  ls -ltr
+  489  vim nocasematch_case1.sh 
+  490  ls -ltr
+  491  bash nocasematch_case1.sh ubuntu
+  492  bash nocasematch_case1.sh ubuntU
+  493  git add nocasematch_case1.sh 
+  494  git commit -m "Inicio de ejemplo de funciones"
+  495  vim nocasematch_case1.sh 
+  496  git add nocasematch_case1.sh 
+  497  git commit -m "Paso de parametros a una funcion"
+  498  git push origin master
+  499  ls -ltr
+  500  git status
+  501  git add SpecVar.sh_Prof 
+  502  git commit -m "SpecVAR.sh_PROF"
+  503  vim nocasematch_case1.sh 
+  504  ls -lrt
+  505  cp /home/sysadmin/[A
+  506  cp /home/sysadmin/LXS2_emmanuel/src
+  507  cp /home/sysadmin/LXS2_emmanuel/src/* .
+  508  ls -ltr
+  509  cd ../../LXS2_emmanuel/
+  510  ls -ltr
+  511  cd src
+  512  ls -ltr
+  513  cd ../..
+  514  cd -
+  515  git pull origin master 
+  516  pwd
+  517  git pull origin master 
+  518  ls l-tr
+  519  ls -ltr
+  520  cd /home/sysadmin
+  521  pwd
+  522  ls -ltr
+  523  cd Desktop/
+  524  ls -ltr
+  525  cd ../
+  526  ls -ltr
+  527  pwd
+  528  mv Desktop/*.xml
+  529  mv Desktop/*.xml .
+  530  ls -ltr
+  531  pwd
+  532  cd Desktop/
+  533  ls -ltr
+  534  wget http://10.124.18.117/cnt-00.xml
+  535  ls -ltr
+  536  cd ../
+  537  ls -ltr
+  538  wget http://10.124.18.117/cnt-00.xml
+  539  ls -ltr
+  540  cd Downloads/
+  541  ls -ltr
+  542  mv *.img /var/lib/libvirt/images/
+  543  sudo mv *.img /var/lib/libvirt/images/
+  544  cd /var/lib/libvirt/images
+  545  ls -ltrh
+  546  ls -ltr
+  547  sudo ls -ltr
+  548  cd
+  549  ls -ltr
+  550  vim cnt-00.xml 
+  551  su - 
+  552  sudo su -
+  553  cd LXS2_
+  554  xs LXS2_dhidalgo/
+  555  cd LXS2_dhidalgo/
+  556  ls -lrer
+  557  ls -ltr
+  558  cd src
+  559  ls -lrtr
+  560  git add * 
+  561  git status
+  562  ls -ltr
+  563  git add case1.sh 
+  564  git status
+  565  git add SpecVar.sh 
+  566  git status
+  567  git add nocasematch_case1.sh 
+  568* 
+  569  git add parametros_posicionales.sh 
+  570  git add parametros_posicionales_avanzados.sh 
+  571  git status
+  572  git add file*
+  573  git status
+  574  git add f*.sh
+  575  git status
+  576  ls -ltr
+  577  cd 
+  578  cd  /var/lib/libvirt/images
+  579  ls -ltr
+  580  sudo ls -ltr
+  581  history > history-$HOSTNAME-`date +%Y%m%d`.txt
+  582  pwd
+  583  cd
+  584  ls -ltr
+  585  cd LXS2_dhidalgo/
+  586  ls -ltr
+  587  cd history/
+  588  history > history-$HOSTNAME-`date +%Y%m%d`.txt
