@@ -1,0 +1,433 @@
+    1  id
+    2  cd /sysadmin/
+    3  cd /home/sysadmin/
+    4  sudo git init
+    5  sudo git clone https://github.com/mquesaada/LXS2_-mquesaada.git
+    6  mquesaada
+    7  ls
+    8  clear
+    9  touch Music/song.mp3
+   10  ls
+   11  mkdir Music
+   12  touch Music/song.mp3
+   13  tree
+   14  sudo apt-get install tree
+   15  tree
+   16  ls Music
+   17  ls Music/ algo
+   18  ls Music/ algo 2> otro2> error
+   19  cat otro
+   20  cat error
+   21  ls error
+   22  cowsay hola
+   23  sudo apt-get install cowsay
+   24  cowsay hola
+   25  ls
+   26  cd ..
+   27  ls
+   28  cd sysadmin
+   29  ls
+   30  cd ..
+   31  ls
+   32  sudo clone https://github.com/emvarg/LXS2_emmanuel.git
+   33  ls
+   34  sudo git clone https://github.com/emvarg/LXS2_emmanuel.git
+   35  ls
+   36  cd LXS2_emmanuel/
+   37  ls
+   38  cd misc/
+   39  ls
+   40  cd
+   41  pwd
+   42  cd ..
+   43  ls
+   44  sudo rm -r LXS2_emmanuel/
+   45  cd
+   46  ls
+   47  git clone https://github.com/emvarg/LXS2_emmanuel.git
+   48  ls
+   49  cd LXS2_emmanuel/
+   50  git log
+   51  tree
+   52  cd ..
+   53  ls
+   54  #cp LXS2_emmanuel/misc/dhcpd.conf LXS2_-mquesaada/
+   55  cd LXS2_-mquesaada/
+   56  ls
+   57  cd
+   58  mkdir LXS2_-mquesaada/misc/Clase3
+   59  ls -l
+   60  sudo rm -r LXS2_-mquesaada/
+   61  #git clone https://github.com/mquesaada/LXS2_-mquesaada.git
+   62  ls
+   63  cd
+   64  ls
+   65  git clone https://github.com/mquesaada/LXS2_-mquesaada.git
+   66  ls
+   67  cd LXS2_-mquesaada/
+   68  ls
+   69  tree
+   70  cd
+   71  ls
+   72  mkdir LXS2_-mquesaada/misc/Clase3
+   73  cd LXS2_-mquesaada/
+   74  ls
+   75  tree
+   76  cd
+   77  cp LXS2_emmanuel/misc/dhcpd.conf LXS2_-mquesaada/misc/Clase3
+   78  cd LXS2_-mquesaada/
+   79  ls
+   80  tree
+   81  cd
+   82  cd LXS2_-mquesaada/misc/clase3
+   83  cd /LXS2_-mquesaada/misc/clase3
+   84  ls
+   85  cd
+   86  ls
+   87  cd
+   88  cd LXS2_-mquesaada/misc/Clase3/
+   89  cat dhcpd.conf |grep -v "#" | grep "fixed" | grep "192" |awk -F" " '{print $1}'| sort > Red
+   90  cat dhcpd.conf |grep -v "#" | grep "fixed" | grep "192." |awk -F" " '{print $1}'| sort > Red
+   91  cat dhcpd.conf
+   92  cat dhcpd.conf |grep -v "#"
+   93  cat dhcpd.conf |grep -v "#" | grep "fixed"
+   94  cat dhcpd.conf |grep -v "#" | grep "fixed" | grep "192"
+   95  cat dhcpd.conf |grep -v "#" | grep "fixed" | grep "192." | grep "10."
+   96  cat dhcpd.conf |grep -v "#" | grep "fixed" | grep "192." | grep "10"
+   97  cat dhcpd.conf |grep -v "#" | grep "fixed"
+   98  cat dhcpd.conf |grep -v "#" | grep "fixed" | grep "192." | grep "10"
+   99  cat dhcpd.conf |grep -v "#" | grep "fixed" | grep "192." | awk -F" "
+  100  cat dhcpd.conf |grep -v "#" | grep "fixed" | grep "192."
+  101  cat dhcpd.conf |grep -v "#" | grep "fixed" | grep "192." | awk -F" " '{print $1}' | sort
+  102  cat dhcpd.conf |grep -v "#" | grep "fixed" | grep "192." | awk -F" " '{print $2}' | sort
+  103  cat dhcpd.conf |grep -v "#" | grep "fixed" | grep "192." | awk -F" " '{print $2}' | sort > Red-Roja
+  104  cat dhcpd.conf |grep -v "#" | grep "fixed" | grep "10." | awk -F" " '{print $2}' | sort > Red-azul
+  105  cat Red-azul
+  106  git status
+  107  cd
+  108  cd LXS2_-mquesaada/
+  109  git status
+  110  git commit -m "Clase 3 revisada"
+  111  git config --global user.name "mquesaada" user.email "marco.quesada.6@hotmail.es"
+  112  git config --global user.name "mquesaada"
+  113  git config --global user.email "marco.quesada.6@hotmail.es"
+  114  git commit -m "Clase 3 revisada"
+  115  cat dhcpd.conf
+  116  ls
+  117  cd misc
+  118  ls
+  119  cd Clase3
+  120  ls
+  121  rm -r Red
+  122  ls
+  123  cat dhcpd.conf 
+  124  cat dhcpd.conf | grep "fixed"
+  125  cat dhcpd.conf | grep "fixed" | grep"168."
+  126  cat dhcpd.conf | grep "fixed" | grep "168."
+  127  cat dhcpd.conf | grep "fixed" | grep "168." | awk -F" " '{print $2}' | sort
+  128  cat dhcpd.conf | grep "fixed" | grep "168." | awk -F" " '{print $2}' | sort > Red-blanca
+  129  ls
+  130  git status
+  131  git add Red-blanca
+  132  git status
+  133  git commit -m "Clase 3 revisada actualizada con Red-blanca"
+  134  cd .
+  135  cd ..
+  136  history > history/history-$HOSTNAME-`date +%Y%m%m`
+  137  ls history
+  138  git commit -m "Final de Clase3"
+  139  git push
+  140  git status
+  141  cd misc
+  142  ls
+  143  cd calse3
+  144  cd Clase3
+  145  ls
+  146  cd
+  147  cd LXS2_-mquesaada/
+  148  git rm Red
+  149  sudo shutdown -h now
+  150  ps -l
+  151  nice -8 yes
+  152  ps -l
+  153  sudo renice -5 3356
+  154  ps -l
+  155  exit
+  156  ps -l
+  157  jobs
+  158  job
+  159  ptree
+  160  sudo apt-get install ptree
+  161  ptree
+  162  sudo apt-get install adacontrol
+  163  ptree
+  164  ptree -s
+  165  ls -ltr
+  166  for i in 3356 3342 3228 ; do sudo renice -0 $i;done
+  167  ps -el
+  168  ps -l
+  169  exit
+  170  l s-ltr
+  171  pwd
+  172  su - 
+  173  pstree
+  174  yes Hey! > /dev/null &
+  175  jobs
+  176  vim /etc/algo
+  177  jobs
+  178  ps -l
+  179  ps -aux
+  180  jobs
+  181  vim /tmp/nota 
+  182  jobs
+  183  vim /tmp/nota
+  184  fg
+  185  ping localhost
+  186  jobs
+  187  ping localhost
+  188  jobs
+  189  ping localhost  >  /dev/null &
+  190  jobs
+  191  pgrep ping
+  192  kill -9 3200
+  193  kill -9 3202
+  194  pgrep ping
+  195  jobs
+  196  ping localhost > /dev/null 
+  197  jobs
+  198  fg %3
+  199  jobs
+  200  ping localhost > /dev/null 
+  201  fg %3
+  202  ping localhost > /dev/null &
+  203  jobs
+  204  fg %3 &
+  205  ps -l 
+  206  sudo kill -s SIGTERM 3229
+  207  ps -l 
+  208  top
+  209  free
+  210  nice -10 bash
+  211  exit
+  212  ls -ltr
+  213  git clone https://github.com/dhidalgX/LXS2_dhidalgo.git
+  214  ls -ltr
+  215  cd LXS2_dhidalgo/
+  216  ls -ltr
+  217  cd srdc
+  218  cd src
+  219  ls -ltr
+  220  cd *
+  221  vim script_1.sh
+  222  ls -ltr
+  223  mv script_1.sh parametros_posicionales.sh
+  224  ls -ltr
+  225  vim parametros_posicionales.sh 
+  226  $1
+  227  $?
+  228  ls
+  229  $?
+  230  $$
+  231  ps -ef |grep 2378
+  232  fg
+  233  ls l-tr
+  234  fg
+  235  r vim
+  236  vim parametros_posicionales.sh 
+  237  fg
+  238  history
+  239  fg
+  240  ls -ltr
+  241  vim parametros_posicionales.sh
+  242  cp parametros_posicionales.sh parametros_posicionales2.sh
+  243  vim parametros_posicionales2.sh 
+  244  ./parametros_posionales2.sh
+  245  ls -ltr
+  246  chmod 755 *
+  247  ./parametros_posicionales2.sh
+  248  vim parametros_posicionales2.sh
+  249  ./parametros_posicionales2.sh 
+  250  s -ltr
+  251  ls -ltr
+  252  vim parametros_posicionales2.sh
+  253  ./parametros_posicionales2.sh
+  254  vim parametros_posicionales2.sh
+  255  ls -ltr
+  256  git status
+  257  git add parametros_posicionales2.sh 
+  258  git push
+  259  git status
+  260  git commit -m "ParametrosPosicionales2"
+  261  git status
+  262  git push
+  263  ls -ltr
+  264  cp parametros_posicionales2.sh parametros_posicionales3.sh
+  265  ls -ltr
+  266  vim parametros_posicionales3.sh
+  267  ls -ltr
+  268  ./parametros_posicionales3.sh 
+  269  vim parametros_posicionales3.sh
+  270  ls -ltr
+  271  vim parametros_posicionales3.sh
+  272  ls -ltr
+  273  git status
+  274  git add parametros_posicionales3.sh 
+  275  git commit -m "ParametrosPosicionales3"
+  276  git status
+  277  git push
+  278  ls -ltr
+  279  more *.sh
+  280  s -ltr
+  281  ls -ltr
+  282  git add parametros_posicionales.sh 
+  283  git commit -m "ParametrosPosicionales.sh"
+  284  git status
+  285  git push
+  286  ls -ltr
+  287  vim parametros_posicionales.sh
+  288  vim parametros_posicionales2
+  289  vim parametros_posicionales2.sh
+  290  vim parametros_posicionales3.sh
+  291  git status
+  292  git add parametros_posicionales3.sh 
+  293  git status
+  294  git commit -m "ParametrosPosicionales3.sh"
+  295  git status
+  296  git push
+  297  vim parametros_posicionales_avanzados.sh
+  298  ls -ltr
+  299  chmod 755 *
+  300  ls -ltr
+  301  ./parametros_posicionales_avanzados.sh 
+  302  ls -ltra
+  303  ./parametros_posicionales_avanzados.sh 
+  304  touch file1
+  305  touch file2
+  306  touch file3
+  307  ls -ltr
+  308  ./parametros_posicionales_avanzados.sh file file1 file2
+  309  ls -ltr
+  310  ./parametros_posicionales_avanzados.sh file4 file1 file2
+  311  ls -ltr
+  312  vim parametros_posicionales_avanzados.sh 
+  313  ./parametros_posicionales_avanzados.sh file4 file1 file2
+  314  ls -ltr
+  315  vim parametros_posicionales_avanzados.sh 
+  316  git status
+  317  git add *
+  318  git commit -m "Script_ciclo for"
+  319  git status
+  320  git commit -m "Script_ciclo for"
+  321  git push
+  322  cd ../
+  323  ls -ltr
+  324  cd history
+  325  ls -ltr
+  326  history > history-ubuntu-20161008
+  327  more history-ubuntu-20161008 
+  328  cd -
+  329  ls lt
+  330  cd src
+  331  ls -ltr
+  332  vim SpecVar.sh
+  333  git status
+  334  git add *
+  335  git add SpecVar.sh 
+  336  git commit -m "SpecVar.sh"
+  337  git push
+  338  git push origin master
+  339  git log
+  340  ls ltr
+  341  vim SpecVar.sh 
+  342  ls -ltra
+  343  ls -ltr
+  344  ./SpecVar.sh 
+  345  ./SpecVar.sh casa perro gato
+  346  vim SpecVar.sh 
+  347  ./SpecVar.sh 
+  348  ./SpecVar.sh casa perro gato
+  349  git commit -m "Imprimo los param del script SpecVar"
+  350  git push origin master
+  351  cd ../
+  352  ls -ltr
+  353  cd history/
+  354  ls -ltr
+  355  history > history-ubuntu-20161008
+  356  history > history/history-$HOSTNAME-`date +%Y%m%d`
+  357  history > history/history-$HOSTNAME-`date +%Y%m%d`.txt
+  358  history > history-$HOSTNAME-`date +%Y%m%d`.txt
+  359  ls -ltr
+  360  more history-dhidalgx-OptiPlex-980-20161008.txt 
+  361  ls -ltr
+  362  git add history-dhidalgx-OptiPlex-980-20161008.txt 
+  363  git commit -m "history_1008"
+  364  git pull origin master 
+  365  git push origin master 
+  366  excit
+  367  exit
+  368  bash parametros_posicionales.sh -v
+  369  ls -ltr
+  370  fuser *
+  371  more *.err
+  372  vim SpecVar.sh 
+  373  ./SpecVar.sh 
+  374  ./SpecVar.sh casa perro gato
+  375  vim SpecVar.sh 
+  376  ls -ltyrt
+  377  git add SpecVar.sh 
+  378  git commit -m "SpecVar.sh"
+  379  git push
+  380  history
+  381  exit
+  382  git status
+  383  vim ../.gitignore
+  384  git status
+  385  cd ../
+  386  ls -ltra
+  387  cd - 
+  388  ls -ltr
+  389  git add parametros_posicionales.sh 
+  390  git commit -m "el script de parametros porsicionales" 
+  391  git status
+  392  git add ../.gitignore 
+  393  git commit -m "incuir .gitignore" 
+  394* 
+  395  git push origin master
+  396  history
+  397  screen
+  398  sudo apt-get install screen
+  399  screen
+  400  exit
+  401  lsb release -a
+  402  lsb_ release -a
+  403  sudo apt-get install libvirt-bin
+  404  sudo apt-get install libvirt-bin qemu-system qemu-kvm virt-manager
+  405  grep virt /etc/group
+  406  sudo usermod -a -G libvirtd sysadmin
+  407  ls -ltr
+  408  cd LXS2_dhidalgo/
+  409  ls -ltr
+  410  sudo usermod -a -G libvirtd sysadmin
+  411  exit
+  412  sl -tlr
+  413  ls -lrt
+  414  cd LXS2_dhidalgo/
+  415  ls -ltr
+  416  git status
+  417  git pull origin master
+  418  git status
+  419  sudo usermod -a -G libvirtd sysadmin
+  420  sudo apt-get install libvirt-bin qemu-system qemu-kvm virt-manager
+  421  ls -ltra
+  422  pwd
+  423  cd ../
+  424  ls -ltra
+  425  cd -
+  426  ls -ltr
+  427  ls -ltR
+  428  ls -ltr
+  429  cd scr
+  430  cd src
+  431  ls -ltr
+  432  vim SpecVar.sh 
+  433  history > history-$HOSTNAME-`date +%Y%m%d`.txt
