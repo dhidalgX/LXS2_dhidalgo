@@ -9,20 +9,20 @@ DISTRO=$1
 mensaje ()
 {
 
-		echo "Distribucion $DISTRO soportada"
+		echo "Distribucion $1 soportada"
 }
 
 case "$DISTRO" in 
 	Ubuntu)
-		mensaje
+		mensaje $DISTRO
 	;;
 	Centos)
 		
-		mensaje
+		mensaje $DISTRO
 	;;
 	Fedora)
 		
-		mensaje
+		mensaje $DISTRO
 	;;
 	*)
 		
