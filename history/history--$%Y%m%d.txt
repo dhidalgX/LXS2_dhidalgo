@@ -1,0 +1,1000 @@
+   46  cd GI*
+   47  ls l-ltr
+   48  ls -ltr
+   49  cd *
+   50  ls -ltr
+   51  cd Projectos
+   52  cd Proyectos/
+   53  ls -ltr
+   54  cd *
+   55  ls -ltr
+   56  cd entregables
+   57  ls -ltr
+   58  mv /home/dhidalgo/Project/* .
+   59  ls -ltrh
+   60  pwd
+   61  mv History ../doc/
+   62  mv History.txt ../doc/
+   63  cd ../doc
+   64  ls -ltr
+   65  more History.txt 
+   66  su -
+   67  history
+   68  cd
+   69  ls -ltr
+   70  cd Project/
+   71  ls -ltr
+   72  cd ../GIT_REP/
+   73  ls -ltr
+   74  cd *
+   75  ls -ltr
+   76  git init
+   77  git status
+   78  pwd
+   79  ls -ltr
+   80  git commit
+   81  git add Proyectos/
+   82  git commit
+   83  git commit -m "Proyectos"
+   84  git config --global user.name "dhidalgX"
+   85  git config --global user.email dhidalgx@gmail.com
+   86  git commit -m "Proyectos"
+   87  pwd
+   88  ls -ltr
+   89  git add Proyectos/
+   90  git commit -m "Proyectos"
+   91  git status
+   92  git config --list
+   93  ls -ltr
+   94  git status
+   95  git add Proyectos/
+   96  git status
+   97  pwd
+   98  ls
+   99  git commit
+  100  ls -ltr
+  101  git init
+  102  git commit
+  103  git add Proyectos/*
+  104  git commit
+  105  ls -ltr
+  106  mkdir Proyecto
+  107  ls -ltr
+  108  cd Proyectos
+  109  ls -ltr
+  110  mkdir -p ../Proyecto/Proyecto-1
+  111  cd *
+  112  ls -ltr
+  113  mkdir -p ../Proyecto/Proyecto-1/doc
+  114  mkdir -p ../Proyecto/Proyecto-1/entregables
+  115  cd entregables/
+  116  pwd
+  117  cd ../
+  118  ls -ltr
+  119  cd
+  120  cd -
+  121  cd ..
+  122  ls -tlr
+  123  cd ..
+  124  ls-ltr
+  125  ls -ltr
+  126  cd Proyecto
+  127  ls -ltr
+  128  cd *
+  129  ls -ltr
+  130  mkdir doc
+  131  cd entregable
+  132  mkdir entregable
+  133  pwd
+  134  ls -ltr
+  135  cd ..
+  136  pwd
+  137  cd
+  138  ls -ltr
+  139  cd Project
+  140  ls -ltr
+  141  rmdir Project
+  142  cd ../
+  143  rmdir Project
+  144  cd 8
+  145  cd *
+  146  ls -ltr
+  147  cd *
+  148  ls -ltr
+  149  cd Proyecto
+  150  ls -ltr
+  151  cd *
+  152  ls -ltr
+  153  ls -ltR
+  154  cd entregable
+  155  pwd
+  156  cd ../../../
+  157  pwd
+  158  ls
+  159  cd -
+  160  mv ../../../Proyectos/Proyecto-1/entregables/* .
+  161  ls -ltrh
+  162  cd ../doc
+  163  mv ../../../Proyectos/Proyecto-1/doc/* .
+  164  ls -ltrh
+  165  cd ..
+  166  cd
+  167  ls -ltr
+  168  cd  *
+  169  ls -ltr
+  170  ls -ltra
+  171  cd *
+  172  ls -ltra
+  173  git status
+  174  git commit -m "Proyecto-1"
+  175  git add Proyecto/
+  176  git commit -m "Proyecto-1"
+  177  git status
+  178  git log
+  179  pwd
+  180  git add *
+  181  git status
+  182  ls -ltr 
+  183  cd Proyecto 
+  184  ls -ltr
+  185  ls -ltR
+  186  cd ../
+  187  ls -ltr
+  188  pwd
+  189  cd Proyectos
+  190  ls -ltr
+  191  ls -ltR
+  192  cd ../
+  193  rmdir -p Proyectos
+  194  rmdor -rf Proyectos
+  195  rmdir -rf Proyectos
+  196  rmdir -f Proyectos
+  197  l s-ltr
+  198  ls -ltr
+  199  chmod 777 *
+  200  ls -ltr
+  201  pwd
+  202  cd ../../
+  203  ls -ltr
+  204  cd ..
+  205  ls -ltr
+  206  mkdir BACKUP
+  207  cd
+  208  c
+  209  ls -ltr
+  210  mkdir BACKUP
+  211  cd BACKUP/
+  212  tar -cvf rep.tar ../GIT_REP/*
+  213  ls -ltrh
+  214  cd ../
+  215  ls -ltr
+  216  cd GIT
+  217  cd GIT_REP/
+  218  ls -ltr
+  219  cd *
+  220  ls -ltr
+  221  cd Proyectos
+  222  cd ../Proyecto
+  223  ls -tlr
+  224  cd ../
+  225  ls -ltr
+  226  ls -ltrea
+  227  ls -ltra
+  228  git remote add origin https://github.com/dhidalgX/LXS2_dhidalgo.git
+  229  git commit -m "Proyecto-1"
+  230  ls -ltr
+  231  cd ../
+  232  ls -ltr
+  233  cd ../
+  234  ls -ltr
+  235  cd BACKUP/
+  236  ls -ltr
+  237  tar -xvf *
+  238  ls -ltr
+  239  cd ../
+  240  ls -ltr
+  241  cd GIT*
+  242  ls -ltr
+  243  cd *
+  244  ls -ltr
+  245  cd Proyectos
+  246  ls -tlr
+  247  pwd
+  248  cd ../Proyectp
+  249  cd ../Proyecto
+  250  ls -ltr
+  251  cd *
+  252  ls -tlr
+  253  ls -ltr
+  254  cd entregable
+  255  ls -tlr
+  256  git add *.txt
+  257  git status
+  258  git commit -a 
+  259  ls -ltr
+  260  cd ../.../
+  261  cd ../
+  262  ls -ltr
+  263  cd ../
+  264  ls -tlr
+  265  cd ../
+  266  ls -ltr
+  267  cd .../
+  268  ls -ltr
+  269  cd ..
+  270  ls -ltr
+  271  rm -rf *
+  272  ls -ltr
+  273  git remote rm origin
+  274  ls -ltr
+  275  ls -ltra
+  276  git clone https://github.com/dhidalgX/LXS2_dhidalgo.git
+  277  ls -ltr
+  278  git config --global user.name "dhidalgX"
+  279  git config --global user.email "dhidalgx@gmail.com"
+  280  ls -ltra
+  281  cd *
+  282  ls -ltra
+  283  cat /etc/gitconfig
+  284  git config
+  285  ls -ltra
+  286  cd .git
+  287  ls -ltr
+  288  cd confog
+  289  cd config
+  290  cat config
+  291  cd ../
+  292  ls -ltr
+  293  ls -ltra
+  294  git config --list
+  295  git init
+  296  git add *.c
+  297  git status
+  298  cd ../
+  299  ls -ltr
+  300  cd ../
+  301  ls -tr
+  302  cd BACKUP
+  303  ls -ltr
+  304  cd *
+  305  ls -ltr
+  306  cd *
+  307  ls -ltr
+  308  cd Proyecto
+  309  ls -ltr
+  310  cd *
+  311  ls -ltr
+  312  cd entregable
+  313  ls -ltr
+  314  pwd
+  315  cd 
+  316  ls
+  317  cd GIT_REP/
+  318  ls -ltr
+  319  cd *
+  320  ls -ltr
+  321  mkdir -p Proyecto/Proyect-1/entregable
+  322  cd Proyecto/Proyect-1/entregable
+  323  ls -ltr
+  324  pwd
+  325  cp /home/dhidalgo/BACKUP/GIT_REP/LXS2_dhidalgo/Proyecto/Proyecto-1/entregable/* .
+  326  ls -ltr
+  327  git status
+  328  git add *.txt
+  329  git status
+  330  git commit 
+  331  git commit 
+  332  git commit -m "Proyecto-1"
+  333  git status
+  334  git remote -v
+  335  git push origin master
+  336  git push origin master
+  337  git push origin master
+  338  git push origin master
+  339  ls -ltr
+  340  cd ../
+  341  ls -ltr
+  342  mkdir doc
+  343  cd doc
+  344  ls -ltr
+  345* 
+  346  ls -ltrr
+  347  git status
+  348  pwd
+  349  git add *.txt
+  350  git status
+  351  git commit -m "Proyecto-1"
+  352  git push origin master
+  353  su - 
+  354  ls -ltr
+  355  history
+  356  exit
+  357  ls -ltr
+  358  cd GIT*
+  359  ls -ltr
+  360  cd *
+  361  ls -ltr
+  362  cd history
+  363  ls -ltr
+  364  cd file
+  365  more hi*
+  366  exit
+  367  ls -ltr
+  368  cd GIT_REP/
+  369  cd LXS2_dhidalgo/
+  370  cd Proyecto/
+  371  ls
+  372  cd *
+  373  ls -ltr
+  374  cd doc
+  375  ls -ltr
+  376  more history-localhost.localdomain-20161001 
+  377  ls -ltr
+  378  cd ../
+  379  cd ..
+  380  ls
+  381  cd ..
+  382  ls
+  383  cd history
+  384  ls -ltr
+  385  cd -
+  386  ls
+  387  cd Proyecto/
+  388  ls
+  389  cd *
+  390  ls -ltr
+  391  cd doc
+  392  ls -ltrr
+  393  git status
+  394  git commit -m "History_Proyecto_LVM"
+  395  git push origin master
+  396  git init
+  397  git commit -m "History_Proyecto_LVM"
+  398  git status
+  399  git add *
+  400  pwd
+  401  cd ../../
+  402  ls
+  403  pwd
+  404  cd ../../
+  405  ls
+  406  cd *
+  407  git add *
+  408  su - 
+  409  ls -ltr
+  410  pwd
+  411  git add *
+  412  git commit -m "History_Proyecto_LVM"
+  413  git push origin master
+  414  git pull
+  415  git commit -m "History_Proyecto_LVM"
+  416  git add *
+  417  git commit -m "History_Proyecto_LVM"
+  418  git push origin master
+  419  pwd
+  420  cd ../
+  421  ls -ltr
+  422  git remote -v
+  423  ls
+  424  cd *
+  425  git remote -v
+  426  cd ../
+  427  ls -ltr
+  428  git clone https://github.com/emvarg/LXS2_emmanuel.git
+  429  ls -ltr
+  430  cd LXS2_emmanuel/
+  431  ls -ltr
+  432  cd ../
+  433  cd LXS2_dhidalgo/
+  434  ls -ltr
+  435  mkdir proyecto_programado
+  436  cd proyecto_programado/
+  437  ls -ltr
+  438  cd ../../LXS2_emmanuel/
+  439  ls -ltr
+  440  ls -ltR
+  441  cd ../LXS2_dhidalgo/
+  442  ls -ltr
+  443  git add *
+  444  git commit -m "proyecto_programado"
+  445  git push origin master
+  446  git pull
+  447  ls -ltr
+  448  cd Proyecto/
+  449  ls -ltr
+  450  git pull
+  451  ls -ltr
+  452  cd *
+  453  ls -ltr
+  454  mv *.tar.gz ../../proyecto_programado/
+  455  cd ../../proyecto_programado/
+  456  ls -ltr
+  457  unzip *
+  458  gunzip *
+  459  ls -ltr
+  460  tar -xvf *
+  461  ls -ltr
+  462  cd Proyecto-de-Programacion
+  463  ls -ltr
+  464  more *.pdf
+  465  l s-ltr
+  466  ls -ltr
+  467  ls -ltR
+  468  pwd
+  469  cd ../
+  470  ls -ltr
+  471  ls -ltrh
+  472  mv Proyecto-de-Programacion Proyecto-de-Programacion_DOCUMENTS
+  473  ls -ltrh 
+  474  mkdir Proyecto-de-Programacion
+  475  ls -ltre]
+  476  ls -ltrh
+  477  shutdown -h now 
+  478  shutdown -h now
+  479  exit
+  480  ls -lt
+  481  ls -ltr
+  482  cd BACKUP/
+  483  la -ltr
+  484  ls -ltr
+  485  cd ../GIT
+  486  cd ../GIT_REP/
+  487  ls -ltr
+  488  cd LXS2_dhidalgo/
+  489  ls -ltr
+  490  cd proyecto_programado/
+  491  ls -ltr
+  492  cd Proyecto-de-Programacion
+  493  ls -ltr
+  494  cd ../Proyecto-de-Programacion_DOCUMENTS/
+  495  ls -ltr
+  496  cd -
+  497  cp -r ../Proyecto-de-Programacion_DOCUMENTS/* .
+  498  ls -ltr
+  499  ls -ltR
+  500  ls -ltr
+  501  pwd
+  502  cd ../
+  503  ls -ltr
+  504  cd -
+  505  ls -ltr
+  506  mkdir scripts
+  507  ls -ltr
+  508  cd scripts
+  509  ls -ltr
+  510  touch problema1.sh
+  511  ls -ltr
+  512  chmod +x problema1.sh 
+  513  ls -ltrr
+  514  pwd
+  515  ls -ltr
+  516  cd ../
+  517  ls -ltr
+  518  cd problema1
+  519  ls -ltr
+  520  ls -ltR
+  521  cd hojasDatos/
+  522  ls -ltr
+  523  xls2csv datos1.xls >> archivo1.csv
+  524  xls2csv
+  525  yum install xls2csv
+  526  exit
+  527  ls -ltr
+  528  cd GIT_REP/
+  529  ls -ltr
+  530  cd LXS2_dhidalgo/
+  531  ls -ltr
+  532  cd proyecto_programado/
+  533  ls -ltr
+  534  cd Proyecto-de-Programacion_DOCUMENTS/
+  535  ls -ltr
+  536  cd problema1
+  537  ls -ltr
+  538  cd hojasDatos/
+  539  ls -ltr
+  540  xls2csv datos1.xls >> archivo1.csv
+  541  sudo yum update
+  542  sudo adduser dhidalgo sudo
+  543  exit
+  544  ls -ltr
+  545  sudo yum update
+  546  ls -ltr
+  547  cd GIT_REP/
+  548  ls -ltr
+  549  cd LXS2_dhidalgo/
+  550  ls -ltr
+  551  cd proyecto_programado/
+  552  ls -ltr
+  553  cd Proyecto-de-Programacion_DOCUMENTS/
+  554  ls -ltr
+  555  cd problema1
+  556  ls -lrr
+  557  cd hojasDatos/
+  558  ls -ltr
+  559  chmod 655 *.xls
+  560  ls -ltr
+  561  xls2csv datos1.xls >> archivo1.csv
+  562  sudo xls2csv datos1.xls  >> archivo1.csv
+  563  perl -MCPAN -e 'shell'
+  564  yum install perl-CPAN
+  565  sudo yum install perl-CPAN
+  566  exit
+  567  ls -ltr
+  568  pwd
+  569  ls -ltr
+  570  cd GIT_REP/
+  571  ls -lt
+  572  cd LXS2_dhidalgo/
+  573  ls -ltr
+  574  cd proyecto_programado/
+  575  ls -ltr
+  576  cd Proyecto-de-Programacion_DOCUMENTS/
+  577  ls -ltr
+  578  sudo wget http://search.cpan.org/CPAN/authors/id/K/KE/KEN/xls2csv-1.06.tar.gz
+  579  ls -ltr
+  580  unzip *.gz
+  581  gunzip *.gz
+  582  ls -ltr
+  583  tar -tvf *.tar
+  584  tar -zxf *.tar
+  585  tar -xvf *.tar
+  586  ls -ltr
+  587  perl -MCPAN -e 'shell'
+  588  ls -ltr
+  589  perl -MCPAN -e 'shell'
+  590  perl Makefile.PL
+  591  ls -ltr
+  592  ls -ltra
+  593  xls2csv datos1.xls >> archivo1.csv
+  594  perl -MCPAN -e 'shell'
+  595  ls -ltr
+  596  cd xls2csv-1.06
+  597  ls -ltr
+  598  perl Makefile.PL 
+  599  make
+  600  make test
+  601  make install
+  602  sudo Makefile.PL 
+  603  sudo perl Makefile.PL 
+  604  ls -ltr
+  605  sudo rm Makefile
+  606  ls -ltr
+  607  Perl  Makefile.PL 
+  608  perl Makefile.PL 
+  609  ls -ltr
+  610  make
+  611  make test
+  612  cd /usr/local/bin/
+  613  ls -ltr
+  614  cd ../
+  615  ls -ltr
+  616  sudo chmod +x bin
+  617  ls -ltr
+  618  cd -
+  619  ls -ltr
+  620  cd
+  621  cd GIT_REP/
+  622  ls -ltr
+  623  cd LXS2_
+  624  cd LXS2_dhidalgo/
+  625  ls -ltr
+  626  cd proyecto_programado/
+  627  ls -ltr
+  628  cd Proyecto-de-Programacion
+  629  ls -ltr
+  630  cd problema1
+  631  ls -lrr
+  632  cd hojasDatos/
+  633  ls -ltr
+  634  cd ../
+  635  ls -ltr
+  636  cd
+  637  ls -ltr
+  638  cd -
+  639  ls -ltr
+  640  cd ../
+  641  ls -ltr
+  642  cd scripts/
+  643  ls -ltr
+  644  cd ../
+  645  ls -ltr
+  646  cd..
+  647  cd ..
+  648  ls -ltr
+  649  cd
+  650  ls -tlr
+  651  cd GIT_REP/
+  652  ls -ltr
+  653  cd catr
+  654  cd catdoc/
+  655  ls -ltr
+  656  cd ../LXS2_dhidalgo/
+  657  ls -ltrr
+  658  cd proyecto_programado/
+  659  ls -ltr
+  660  cd Proyecto-de-Programacion
+  661  ls -ltr
+  662  cd problema
+  663  cd problema1
+  664  ls -lre
+  665  ls -ltr
+  666  pwd
+  667  cd ../../Proyecto-de-Programacion_DOCUMENTS/
+  668  ls -ltr
+  669  cd xls2csv-1.06
+  670  ls -ltr
+  671  ls -ltra
+  672  xls2csv datos1.xls >> archivo1.csv
+  673  exit
+  674  ls -ltr
+  675  pwd
+  676  cd GIT_REP/
+  677  ls -ltr
+  678  cd LXS2_dhidalgo/
+  679  ls -ltr
+  680  cd proyecto_programado/
+  681  ls -ltr
+  682  cd Proyecto-de-Programacion_DOCUMENTS/
+  683  ls -ltr
+  684  cd problema1
+  685  ls -ltr
+  686  cd Datos 
+  687  cd hojasDatos/
+  688  ls -ltr
+  689  xls2csv datos1.xls >> archivo1.csv
+  690  sudo xls2csv datos1.xls  >> archivo1.csv
+  691  sudo rpm-Uhv http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64rpm
+  692  su - 
+  693  ls -ltr
+  694  cd GIT
+  695  cd GIT*
+  696  ls -ltr
+  697  cd LXS2_
+  698  cd LXS2_dhidalgo/
+  699  ls -ltr
+  700  cd proyecto_programado/
+  701  ls -ltr
+  702  cd Proyecto-de-Programacion
+  703  ls -ltr
+  704  cd problema1
+  705  ls -ltr
+  706  cd hojasDatos/
+  707  ls -ltr
+  708  rm archivo1.csv 
+  709  ls -ltr
+  710  xls2csv datos1.xls >> datos1.csv
+  711  ls -ltr
+  712  less datos1.csv 
+  713  ls -ltrr
+  714  ls -ltr
+  715  vim problema1.sh
+  716  yum install vim 
+  717  vim-enhanced.x86_64
+  718  yum serach vim
+  719  yum install vim-enhaced.x86_64
+  720  exit
+  721  ls -ltr
+  722  cd GIT_REP
+  723  ls -ltr
+  724  cd LXS2_dhidalgo/
+  725  ls -ltr
+  726  cd proyecto_programado/
+  727  ls -ltr
+  728  cd Proyecto-de-Programacion
+  729  ls -ltr
+  730  cd problema1
+  731  ls -ltr
+  732  cd hojasDatos/
+  733  ls -ltr
+  734  rm datos1.csv 
+  735  ls -ltr
+  736  vim problema1.sh 
+  737  pwd
+  738  ls -ltr
+  739  vim problema1.sh 
+  740  ls -ltr
+  741  chmod +x problema1.sh 
+  742  ls -ltr
+  743  ./problema1.sh 
+  744  vim problema1.sh 
+  745  ls -ltr
+  746  ./problema1.sh 
+  747  ls -ltr
+  748  cd datos_csv/
+  749  ls -ltr
+  750  cd ..
+  751  more error1.log 
+  752  ls -ltr
+  753  ./problema1.sh 
+  754  ls -ltr
+  755  cd datos
+  756  cd datos_csv/
+  757  ls -ltr
+  758  cd ../
+  759  ls -ltr
+  760  vim problema1.sh 
+  761  ls -ltr
+  762  ./problema1.sh 
+  763  cd datos_csv/
+  764  ls -ltr
+  765  cd ../
+  766  ls -ltr
+  767  vim problema1.sh 
+  768  ls -ltr
+  769  ./problema1.sh 
+  770  ls -ltr
+  771  rmdir datos_csv/
+  772  ls -ltr
+  773  ./problema1.sh 
+  774  cd datos_csv/
+  775  ls -ltr
+  776  cd ./
+  777  cd ../
+  778  ls -ltr
+  779  more error1.log 
+  780  cd ../
+  781  cd -
+  782  ls -ltr
+  783  cd hojasDatos/
+  784  ls -ltr
+  785  vim problema1.sh 
+  786  ls -ltr
+  787  ./problema1.sh 
+  788  cd datos_csv/
+  789  ls -ltr
+  790  cd ../../
+  791  pwd
+  792  tree
+  793  sudo yum install tree
+  794  ls -ltr
+  795  tree
+  796  git status
+  797  pwd
+  798  git add 
+  799  git add *
+  800  git status
+  801  git commit -m "problema1.sh exitoso"
+  802  git status
+  803  git push origin master
+  804  git pull origin master
+  805  git push origin master
+  806  pwd
+  807  tree
+  808  pwd
+  809  ls -ltr
+  810  cat hojasDatos/datos_csv/data-0.csv |awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 ' | head
+  811  cat hojasDatos/datos_csv/data-0.csv |awk -F 
+  812  cat hojasDatos/datos_csv/data-0.csv 
+  813  cat hojasDatos/datos_csv/data-0.csv |awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5} ' | head
+  814  cat hojasDatos/datos_csv/data-0.csv |awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5} ' |sed '1,$ s/"//g' |  head
+  815  cat hojasDatos/datos_csv/data-0.csv |awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5} ' |sed '1,$ s/"//g' |sed '1 s/date/#date/g' | head
+  816  ls -ltr
+  817  cd hojasDatos/
+  818  ls -ltr
+  819  echo cat $e  |awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5} ' |sed '1,$ s/"//g' |sed '1 s/date/#date/g' | head >> problema1.sh 
+  820  vim problema1.sh 
+  821  ls -ltr
+  822  echo " cat $e  |awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5} ' |sed '1,$ s/"//g' |sed '1 s/date/#date/g'" | head >> problema1.sh 
+  823  ls -ltr
+  824  vim problema1.sh 
+  825  ls -ltr
+  826  echo "cat $e  |awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5} ' |sed '1,$ s/"//g' |sed '1 s/date/#date/g' | head" >> problema1.sh 
+  827  echo "cat $e  |awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5} ' |sed '1,$ s/"//g' |sed '1 s/date/#date/g' | head" >> problema1.sh 
+  828  echo "cat $e  |awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5} ' |sed '1,$ s/"//g' |sed '1 s/date/#date/g' | head" >> problema1.sh
+  829  echo [ "cat $e  |awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5} ' |sed '1,$ s/"//g' |sed '1 s/date/#date/g' | head"] >> problema1.sh
+  830  ls -ltr
+  831  vim problema1.sh 
+  832  ls -ltrr
+  833  cd datos_csv/
+  834  ls -ltr
+  835  cd ../
+  836  ./problema1.sh 
+  837  cd -
+  838  ls -ltr
+  839  cd ...../
+  840  cd ../
+  841  ls -ltr
+  842  more error2.log 
+  843  vim problema1.sh 
+  844  more error2.log 
+  845  vim problema1.sh 
+  846  ls -ltr
+  847  ./problema1.sh 
+  848  ls -ltr
+  849  cd datos_graf/
+  850  ls -ltr
+  851  git status
+  852  man gnuplot
+  853  yum install gnuplot
+  854  sudo yum install gnuplot
+  855  pwd
+  856  ls -ltr
+  857  gnuplot
+  858  ls -ltr
+  859  more fig1.png 
+  860  ls -ltr
+  861  exit
+  862  ls -ltr
+  863  su 0 dhidalgo
+  864  exit
+  865  ls -ltr
+  866  exit
+  867  ls -ltr
+  868  exit
+  869  fg
+  870  ls -ltr
+  871  display fig1.png 
+  872  yum install display
+  873  sudo yum install display
+  874  git add fig1.png 
+  875  git commit -m "TEST_gnuplot"
+  876  git status
+  877  git push origin master
+  878  exit
+  879  ls -ltr
+  880  cd GIT_REP/
+  881  ls -ltr
+  882  cd LXS2_dhidalgo/
+  883  ls -ltr
+  884  cd proyecto_programado/
+  885  ls -ltr
+  886  cd pr
+  887  cd Proyecto-de-Programacion
+  888  ls -ltr
+  889  cd problema1
+  890  ls -ltr
+  891  cd hoda
+  892  cd hojasDatos/
+  893  ls -ltr
+  894  cd datosg
+  895  cd datos_graf/
+  896  ls -ltr
+  897  rm fig1.png 
+  898  ls -lt
+  899  gnuplot
+  900  ls -ltr
+  901  cd ../
+  902  ls -ltr
+  903  cd datos_graf/
+  904  ls -ltr
+  905  gnuplot
+  906  ls -ltr
+  907  cd ../
+  908  ls -ltr
+  909  cd datos_
+  910  cd datos_csv/data-
+  911  cd datos_csv/d
+  912  cd datos_csv/
+  913  ls -ltr
+  914  more data-0.csv 
+  915  cd ../
+  916  ls -ltr
+  917  cd datos_graf/
+  918  ls -ltr
+  919  more graf-0.dat 
+  920  gnuplot
+  921  ls -ltr
+  922  gnuplot
+  923  ls -ltr
+  924  rm fig1.png
+  925  rm fi2.png 
+  926  ls -ltr
+  927  yum install gnuplot
+  928  sudo yum install gnuplot
+  929  exit
+  930  ls -ltr
+  931  cd GIT
+  932  ls -ltr
+  933  cd GIT_REP/
+  934  ls -ltr
+  935  cd LXS2_
+  936  cd LXS2_dhidalgo/
+  937  ls -ltr
+  938  cd proyecto_programado/
+  939  ls -ltrr
+  940  cd Proyecto-de-Programacion
+  941  ls -ltr
+  942  cd problema
+  943  cd problema1
+  944  ls -ltr
+  945  cd hojasDatos/
+  946  ls -ltr
+  947  cd datos_graf/
+  948  ls -ltr
+  949  set xdata time
+  950  set timfmt "%Y%m%d %H%M"
+  951  set xrange ["20110206 0000":"02110206 0200"]
+  952  set format x "%H%M"
+  953  plot "graf-0.dat" using 1:3 with lines title "sensor 1","graf-0.dat" using 1:4 with linespoinst title "sensor 2"
+  954  exit
+  955  ls -ltr
+  956  cd -
+  957  cd GIT_REP/
+  958  ls -tlr
+  959  cd LXS2_dhidalgo/
+  960  ls -ltr
+  961  cd proyecto_programado/
+  962  ls -ltr
+  963  cd Proyecto-de-Programacion
+  964  ls -ltr
+  965  cd problema
+  966  cd problema1
+  967  ls -ltr
+  968  cd hojasDatos/
+  969  ls -ltr
+  970  cd datos_graf/
+  971  ls -ltr
+  972  gnuplot
+  973  ls -ltr
+  974  touch gnuplot.sh
+  975  vim gnuplot.sh 
+  976  ls -ltr
+  977  chmod +x gnuplot.sh 
+  978  ls -ltr
+  979  bash gnuplot.sh 
+  980  vim gnuplot.sh 
+  981  bash gnuplot.sh 
+  982  vim gnuplot.sh 
+  983  bash gnuplot.sh 
+  984  vim gnuplot.sh 
+  985  ls -ltr
+  986  vim gnuplot.sh 
+  987  ls -ltr
+  988  bash gnuplot.sh 
+  989  vim gnuplot.sh 
+  990  ls -ltr
+  991  cd ../
+  992  ls -ltr
+  993  cd -
+  994  ls -tlr
+  995  cd ../
+  996  ls -ltr
+  997  more problema1.sh 
+  998  ls -ltr
+  999  cd datos
+ 1000  cd datos_graf/
+ 1001  ls -ltr
+ 1002  cat gnuplot.sh >> ../problema1.sh 
+ 1003  cd ../
+ 1004  ls -ltr
+ 1005  more problema1.sh 
+ 1006  vim problema1.sh 
+ 1007  ls -ltr
+ 1008  cd datos_graf/
+ 1009  ls -tlr
+ 1010  mv gnuplot.sh plot1.sh
+ 1011  git pull origin master
+ 1012  pwd
+ 1013  cd ../../../
+ 1014  cd ../
+ 1015  git pull origin master
+ 1016* 
+ 1017  history
+ 1018  cd -
+ 1019  ls -ltr
+ 1020  cd Proyecto-de-Programacion
+ 1021  sl -ltr
+ 1022  ls -ltr
+ 1023  cd problema
+ 1024  cd problema1
+ 1025  ls -ltr
+ 1026  cd hojasDatos/
+ 1027  l s-ltr
+ 1028  ls -ltr
+ 1029  cd datos_graf/
+ 1030  ls -ltr
+ 1031  more plot1.sh 
+ 1032  cd ../
+ 1033  ls -ltr
+ 1034  vim problema1.sh 
+ 1035  cd ../../
+ 1036  cd ../
+ 1037  ls -ltr
+ 1038  cd ../
+ 1039  ls -ltr
+ 1040  cd history
+ 1041  l s-ltr
+ 1042  ls -ltr
+ 1043  history > history-$HOSTANEME-%Y%m%d.txt
+ 1044  ls -ltr
+ 1045  history > history-$HOSTANAME-$%Y%m%d.txt
