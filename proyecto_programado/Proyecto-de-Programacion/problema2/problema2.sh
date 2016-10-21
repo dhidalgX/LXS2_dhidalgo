@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATA=/home/dhidalgo/GIT_REP/LXS2_dhidalgo/proyecto_programado/Proyecto-de-Programacion/problema2/hojasDatos
+DATA=/home/dhidalgo/GIT_REP/LXS2_dhidalgo/proyecto_programado/Proyecto-de-Programacion/problema2/
 GRAF_DATA=$DATA/datos_graf
 mkdir $DATA/datos_csv
 mkdir $GRAF_DATA
